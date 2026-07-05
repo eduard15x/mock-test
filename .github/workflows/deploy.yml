@@ -30,6 +30,7 @@ jobs:
         uses: geekyeggo/delete-artifact@v2
         with:
           name: github-pages
+          failOnError: false
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
